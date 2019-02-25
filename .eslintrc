@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react-hooks"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+  "jest": true
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "no-shadow": "off",
+    "react-hooks/rules-of-hooks": "error"
+  }
+}
