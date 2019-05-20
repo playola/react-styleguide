@@ -3,6 +3,8 @@
 
 ## Getting started
 
+The components library is hosted in a Styleguidist server:
+
 ```
 git clone https://github.com/playola/react-styleguide.git
 
@@ -10,9 +12,9 @@ cd react-styleguide
 
 npm install
 
-npm run dev
+npm run styleguide
 ```
-See http://localhost:8080.
+See living demo of the components: http://localhost:6060.
 
 ## Architecture
 
@@ -24,15 +26,10 @@ See http://localhost:8080.
 * Styled Components
 * React Styleguidist
 
-## Components library
-
-The components library is hosted in the Styleguidist server:
-```
-npm run styleguide
-```
-See http://localhost:6060.
+## How to add components
 
 We define a `.md` file for each component. If we need documentation for a styled component, we need to add a the `@component` decorator. See the example below:
+
 ```
 import styled from 'styled-components';
 
