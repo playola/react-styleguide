@@ -5,9 +5,16 @@ const WHITE = '#FFFFFF';
 const BLACK = '#000000';
 
 export const theme = {
-  primary: GREEN,
-  primaryHover: LIGHT_GREEN,
-  secondary: WHITE,
-  secondaryHover: WHITE_GREEN,
-  black: BLACK,
+  color: {
+    primary: GREEN,
+    primaryHover: LIGHT_GREEN,
+    secondary: WHITE,
+    secondaryHover: WHITE_GREEN,
+    black: BLACK,
+  },
+  breakpoint: {
+    desktop: 992,
+    tablet: 768,
+    mobile: 576,
+  },
 };
