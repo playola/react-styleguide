@@ -15,7 +15,7 @@
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx}'",
     "styleguide": "styleguidist server",
     "predeploy": "styleguidist build",
-    "deploy": "gh-pages -d styleguide/build"
+    "deploy": "gh-pages -d styleguide"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",

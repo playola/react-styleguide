@@ -1,6 +1,8 @@
 # React Styleguide
 > UI Components for React
 
+### [Live Demo](https://playola.github.io/react-styleguide)
+
 ## Getting started
 
 The components library is hosted in a Styleguidist server:
