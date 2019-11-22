@@ -22,11 +22,11 @@ See living demo of the components: http://localhost:6060.
 
 ### Core libraries
 
-* React
-* Webpack
-* Prop Types
-* Styled Components
-* React Styleguidist
+* react
+* webpack
+* prop-types
+* styled-components
+* react-styleguidist
 
 ## How to add components
 

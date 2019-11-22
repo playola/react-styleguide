@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Portal from './index';
+import Radio from './index';
 
-describe('Portal component', () => {
-  const wrapper = shallow(<Portal />);
+describe('Radio component', () => {
+  const wrapper = shallow(<Radio />);
 
   it('should mount', () => expect(wrapper).toBeDefined());
 });

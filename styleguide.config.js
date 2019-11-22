@@ -6,7 +6,6 @@ module.exports = {
   ignore: [
     '**/*.spec.{js,jsx}',
     '**/components/index.js',
-    '**/components/app/index.js',
   ],
   styleguideComponents: {
     Wrapper: path.join(__dirname, 'styleguide/ThemeWrapper'),

@@ -1,3 +1,3 @@
-export { default as App } from './app';
-export { default as Button } from './button';
-export { default as Modal } from './modal';
+export { default as Button } from './Button';
+export { default as InputField } from './InputField';
+export { default as Radio } from './Radio';
