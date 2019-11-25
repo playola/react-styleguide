@@ -8,13 +8,13 @@
 The components library is hosted in a Styleguidist server:
 
 ```
-git clone https://github.com/playola/react-styleguide.git
+    git clone https://github.com/playola/react-styleguide.git
 
-cd react-styleguide
+    cd react-styleguide
 
-npm install
+    npm install
 
-npm run styleguide
+    npm run styleguide
 ```
 See living demo of the components: http://localhost:6060.
 
@@ -22,11 +22,11 @@ See living demo of the components: http://localhost:6060.
 
 ### Core libraries
 
-* react
-* webpack
-* prop-types
-* styled-components
-* react-styleguidist
+    * react
+    * webpack
+    * prop-types
+    * styled-components
+    * react-styleguidist
 
 ## How to add components
 
@@ -36,10 +36,14 @@ We define a `.md` file for each component. If we need documentation for a styled
 import styled from 'styled-components';
 
 /** @component */
-export default const StyledDummyWrapper = styled.div`
-    ...
-`;
+    export default const StyledDummyWrapper = styled.div`
+        ...
+    `;
 ```
+
+## Publish to gh-pages
+
+Settings are set to deploy from `master` branch using Travis CI automatically, so each merge into master will trigger a pipeline that will deploy our changes using `gh-pages`.
 
 ## References
 
