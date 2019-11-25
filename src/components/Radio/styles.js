@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 export const RadioWrapper = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 `;
 
 export const StyledRadio = styled.input`
