@@ -10,4 +10,5 @@ module.exports = {
   styleguideComponents: {
     Wrapper: path.join(__dirname, 'styleguide-components/ThemeWrapper'),
   },
+  styleguideDir: 'docs-dist',
 };

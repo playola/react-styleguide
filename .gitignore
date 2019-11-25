@@ -4,6 +4,7 @@
 # Build
 /dist
 /build
+/docs-dist
 
 # Tests
 /coverage
