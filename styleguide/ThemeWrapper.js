@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../../src/style/theme';
+import { theme } from '../src/style/theme';
 
 const ThemeWrapper = React.memo(({ children }) => (
   <ThemeProvider theme={theme}>
