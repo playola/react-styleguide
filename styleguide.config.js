@@ -8,6 +8,6 @@ module.exports = {
     '**/components/index.js',
   ],
   styleguideComponents: {
-    Wrapper: path.join(__dirname, 'styleguide/ThemeWrapper'),
+    Wrapper: path.join(__dirname, 'styleguide-components/ThemeWrapper'),
   },
 };
